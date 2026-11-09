@@ -1720,7 +1720,7 @@ body.menu-open {
 }
 
 /* =========================================
-FOOTER - PC
+   FOOTER - PC
 ========================================= */
 
 .footer {
@@ -1734,6 +1734,7 @@ FOOTER - PC
     max-width: 1920px;
     margin: 0 auto;
     padding: 0 120px;
+    box-sizing: border-box;
 }
 
 /* SNS + 브랜드 영역 */
@@ -1987,6 +1988,7 @@ MOBILE : 767px 이하
 }
 
 /* =============================================*/
+
 .drop-button,
 .campaign-button {
     transition: background-color 0.3s ease,
